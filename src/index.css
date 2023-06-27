@@ -1,28 +1,13 @@
-Skip to content
- 
-Search…
-All gists
-Back to GitHub
-@ali9ahmad 
-@chrisblakely01
-chrisblakely01/styles.css
-Created 3 years ago • Report abuse
-Star this gist
-Code
-Revisions
-1
-<script src="https://gist.github.com/chrisblakely01/ba7c9572b58c3c5d908a010bf07d3793.js"></script>
-CSS for temperature control app
-styles.css
 body {
   font-family: sans-serif;
-  text-align: center;
+  text-align: center; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  min-width: 150vh;
 }
 
 .app-container {
@@ -89,4 +74,14 @@ button:focus {
 
 .hot {
   background: #ff5200;
+}
+
+.bodybghot {
+  background-image: url(sunnywather.jpg);
+  background-size: contain;
+}
+
+.bodybgcold {
+  background-image: url(coldWeather.jpg);
+  background-size: contain;
 }
